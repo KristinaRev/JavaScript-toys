@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(images/fans.jpg);
+  background-size: cover;
+}
+
+h1 {
+  color: #fff;
+  text-shadow: 5px 5px 2px black;
+}
+
+#field {
+    width: 60%;
+    height: 500px;
+    border: 2px solid rgb(54, 90, 53);
+    background-image: url(images/grass.jpg);
+    background-size: contain;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  #ball {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 90px;
+    height: 90px;
+    transition: all 1s;
+  }
