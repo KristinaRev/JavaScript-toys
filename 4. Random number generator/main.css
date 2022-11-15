@@ -1,0 +1,28 @@
+body {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+    font: 1.25rem/1.5 sans-serif;
+    background-color: antiquewhite;
+  }
+
+  .number {
+    display: flex;
+    flex-direction: column;
+    margin: 4%;
+  }
+
+  button {
+    background-color: blueviolet;
+    color: aliceblue;
+    padding: 3%;
+    border: none;
+  }
+
+  form {
+    box-shadow: 2px 3px 50px blueviolet;
+    padding: 5%;
+  }
